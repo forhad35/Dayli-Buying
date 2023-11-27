@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/purple_200">
+
+    <!-- Linear layout of horizontal orientation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#D6EEEE">
+        <!-- icon for user name column heading -->
+<!--        <TextView-->
+<!--            android:id="@+id/id"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:gravity="center"-->
+<!--            android:padding="5dp" />-->
+        <!-- icon for user name column heading -->
+        <TextView
+            android:id="@+id/disc"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:padding="5dp" />
+
+
+        <!-- icon for number of attempted column heading -->
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="123dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp" />
+
+        <!-- icon for number of correct column heading -->
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

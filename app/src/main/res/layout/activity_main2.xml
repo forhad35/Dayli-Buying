@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="163dp">
+
+        <EditText
+            android:id="@+id/add_disc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="Discriptions"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.528"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <EditText
+            android:id="@+id/add_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="numberDecimal"
+            tools:ignore="MissingConstrantints,TouchTargetSizeCheck"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="418dp" />
+
+        <EditText
+            android:id="@+id/add_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="DD/MM/YY"
+            android:inputType="date"
+            android:minHeight="48dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <Button
+            android:id="@+id/addbtn"
+            android:layout_width="262dp"
+            android:layout_height="96dp"
+            android:text="Add"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="493dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
